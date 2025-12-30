@@ -1,4 +1,9 @@
 # from django.contrib import admin
+from django.contrib import admin
+from .models import CarMake, CarModel
+
+admin.site.register(CarMake)
+admin.site.register(CarModel)
 # from .models import related models
 
 
